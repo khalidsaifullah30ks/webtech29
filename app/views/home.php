@@ -91,7 +91,7 @@
         margin: 0;
         font-size: 32px;
         font-weight: 800;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.6px;
         text-transform: uppercase;
         color: #251f1f;
     }
