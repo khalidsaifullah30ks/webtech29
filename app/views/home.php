@@ -147,7 +147,7 @@
         }
 
         .home-programme-title {
-            font-size: 26px;
+            font-size: 25px;
         }
 
         .home-programme-arrow {
