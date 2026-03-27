@@ -88,11 +88,17 @@ class InterestController
         $programmes = $this->programmeModel->getPublishedProgrammes();
         $message = '';
 
-        if ($programmeId <= 0 || $email === '') {
-            $message = 'Please select a programme and enter your email.';
-            require __DIR__ . '/../views/interest/withdraw.php';
-            return;
-        }
+if ($programmeId <= 0 || $email === '') {
+    $message = 'Please select a programme and enter your email.';
+    require __DIR__ . '/../views/interest/withdraw.php';
+    return;
+}
+
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $message = 'Please enter a valid email address.';
+    require __DIR__ . '/../views/interest/withdraw.php';
+    return;
+}
 
         $this->interestModel->withdraw($programmeId, $email);
         $message = 'If a matching registration was found, it has been withdrawn.';

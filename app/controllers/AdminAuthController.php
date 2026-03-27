@@ -30,12 +30,13 @@ class AdminAuthController
             return;
         }
 
-        $_SESSION['admin_id'] = $admin['AdminID'];
-        $_SESSION['admin_username'] = $admin['Username'];
-        $_SESSION['admin_role'] = $admin['Role'];
+$_SESSION['admin_id'] = $admin['AdminID'];
+$_SESSION['admin_username'] = $admin['Username'];
+$_SESSION['admin_role'] = $admin['Role'];
+session_regenerate_id(true);
 
-        header('Location: index.php?action=admin_dashboard');
-        exit;
+header('Location: index.php?action=admin_dashboard');
+exit;
     }
 
     public function logout(): void

@@ -1,8 +1,23 @@
 <?php require __DIR__ . '/../layouts/header.php'; ?>
 
-<h2>Success</h2>
-<p class="success"><?= htmlspecialchars($success) ?></p>
+<div class="withdraw-wrapper">
+    <div class="withdraw-card success-card">
 
-<p><a href="index.php?action=programmes">Back to Programmes</a></p>
+        <div class="success-icon-wrap">
+            <div class="success-icon">✓</div>
+        </div>
+
+        <h2 class="withdraw-title">Success</h2>
+
+        <p class="success-message-box">
+            <?= htmlspecialchars($success) ?>
+        </p>
+
+        <div class="success-actions">
+            <a href="index.php?action=programmes" class="withdraw-btn success-link-btn">Back to Programmes</a>
+        </div>
+
+    </div>
+</div>
 
 <?php require __DIR__ . '/../layouts/footer.php'; ?>

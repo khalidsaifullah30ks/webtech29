@@ -13,7 +13,7 @@ class HomeController
 
     public function index(): void
     {
-        $programmes = $this->programmeModel->getPublishedProgrammes();
-        require __DIR__ . '/../views/home.php';
+        $homeProgrammes = $this->programmeModel->getHomeProgrammesByLevel();
+        require_once __DIR__ . '/../views/home.php';
     }
 }

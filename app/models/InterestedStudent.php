@@ -48,6 +48,18 @@ class InterestedStudent
         return $stmt->execute([$programmeId, $email]);
     }
 
+    public function countAll(): int
+{
+    $stmt = $this->pdo->query("SELECT COUNT(*) FROM interestedstudents");
+    return (int) $stmt->fetchColumn();
+}
+
+public function countActive(): int
+{
+    $stmt = $this->pdo->query("SELECT COUNT(*) FROM interestedstudents WHERE IsActive = 1");
+    return (int) $stmt->fetchColumn();
+}
+
     public function getAllWithProgramme(): array
     {
         $stmt = $this->pdo->query(

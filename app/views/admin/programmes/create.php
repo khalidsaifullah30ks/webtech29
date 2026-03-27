@@ -2,6 +2,16 @@
 
 <h2>Add Programme</h2>
 
+<?php if (!empty($errors)): ?>
+    <div class="error">
+        <ul>
+            <?php foreach ($errors as $error): ?>
+                <li><?= htmlspecialchars($error) ?></li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+<?php endif; ?>
+
 <form method="POST" action="index.php?action=admin_programme_store">
     <label for="programme_name">Programme Name *</label>
     <input type="text" id="programme_name" name="programme_name" required>

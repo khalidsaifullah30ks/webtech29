@@ -19,6 +19,7 @@ switch ($action) {
         break;
 
     case 'programme_show':
+    case 'show':
         require_once __DIR__ . '/../app/controllers/ProgrammeController.php';
         $controller = new ProgrammeController($pdo);
         $controller->show();
@@ -114,6 +115,55 @@ switch ($action) {
         $controller->togglePublish();
         break;
 
+    case 'admin_programme_modules':
+        require_once __DIR__ . '/../app/controllers/AdminProgrammeModuleController.php';
+        $controller = new AdminProgrammeModuleController($pdo);
+        $controller->index();
+        break;
+
+    case 'admin_programme_module_store':
+        require_once __DIR__ . '/../app/controllers/AdminProgrammeModuleController.php';
+        $controller = new AdminProgrammeModuleController($pdo);
+        $controller->store();
+        break;
+
+    case 'admin_modules':
+        require_once __DIR__ . '/../app/controllers/AdminModuleController.php';
+        $controller = new AdminModuleController($pdo);
+        $controller->index();
+        break;
+
+    case 'admin_module_create':
+        require_once __DIR__ . '/../app/controllers/AdminModuleController.php';
+        $controller = new AdminModuleController($pdo);
+        $controller->create();
+        break;
+
+    case 'admin_module_store':
+        require_once __DIR__ . '/../app/controllers/AdminModuleController.php';
+        $controller = new AdminModuleController($pdo);
+        $controller->store();
+        break;
+
+    case 'admin_module_edit':
+        require_once __DIR__ . '/../app/controllers/AdminModuleController.php';
+        $controller = new AdminModuleController($pdo);
+        $controller->edit();
+        break;
+
+    case 'admin_module_update':
+        require_once __DIR__ . '/../app/controllers/AdminModuleController.php';
+        $controller = new AdminModuleController($pdo);
+        $controller->update();
+        break;
+
+    case 'admin_module_delete':
+        require_once __DIR__ . '/../app/controllers/AdminModuleController.php';
+        $controller = new AdminModuleController($pdo);
+        $controller->delete();
+        break;
+
     default:
         echo "Page not found.";
+        break;
 }
