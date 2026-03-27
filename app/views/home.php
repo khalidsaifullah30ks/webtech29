@@ -89,11 +89,11 @@
 
     .home-programme-title {
         margin: 0;
-        font-size: 34px;
+        font-size: 32px;
         font-weight: 800;
         letter-spacing: 0.5px;
         text-transform: uppercase;
-        color: #000000;
+        color: #251f1f;
     }
 
     .home-programme-arrow {
@@ -129,7 +129,7 @@
         }
 
         .slider-overlay p {
-            font-size: 16px;
+            font-size: 15px;
         }
 
         .home-programme-strip-inner {
