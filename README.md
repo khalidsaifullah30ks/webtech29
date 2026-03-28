@@ -44,3 +44,9 @@ My work includes:
 - Showing programme details and images
 - Organizing modules by year
 - Improving UI/UX design and responsiveness
+
+#Contributions: Azmain Hossain Ovy:
+- Developed the Admin login system
+- Implemented Admin dashboard
+- Programme and module management
+- Module assignment to programmes
