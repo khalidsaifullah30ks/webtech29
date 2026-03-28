@@ -45,8 +45,18 @@ My work includes:
 - Organizing modules by year
 - Improving UI/UX design and responsiveness
 
-#Contributions: Azmain Hossain Ovy:
+#Contributions: 
+Azmain Hossain Ovy:
 - Developed the Admin login system
 - Implemented Admin dashboard
 - Programme and module management
 - Module assignment to programmes
+
+## Installation
+
+1. Import the database file using phpMyAdmin.
+2. Place the project folder inside XAMPP htdocs.
+3. Start Apache and MySQL in XAMPP.
+4. Open the project in browser:
+
+http://localhost/Project%20website%20by%20WEBTECH%2029/public
