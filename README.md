@@ -32,3 +32,15 @@ My work includes:
 
 ## Author
 Khalid Saifullah
+
+## My Contribution (Shafin Zaman)
+
+I was responsible for the Programme page development.
+
+My work includes:
+
+- Designing and implementing the Programme page layout
+- Displaying programmes (BSc and MSc)
+- Showing programme details and images
+- Organizing modules by year
+- Improving UI/UX design and responsiveness
