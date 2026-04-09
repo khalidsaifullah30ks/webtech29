@@ -14,14 +14,7 @@ Admins can:
 - Publish/unpublish programmes
 - View student interest
 
-## My Contribution
-I was responsible for the homepage development.
-
-My work includes:
-- Designing and implementing the homepage layout
-- Creating a dynamic hero slider
-- Connecting navigation to BSc, MSc, and Programmes pages
-- Improving responsiveness and user experience
+---
 
 ## Technologies Used
 - PHP
@@ -30,33 +23,40 @@ My work includes:
 - JavaScript
 - MySQL
 
-## Author
-Khalid Saifullah
+---
 
-## My Contribution (Shafin Zaman)
+## Team Contributions
 
-I was responsible for the Programme page development.
+### Khalid Saifullah
+- Designed and implemented the homepage layout  
+- Created dynamic hero slider  
+- Connected navigation to BSc, MSc, and Programmes pages  
+- Improved responsiveness and user experience  
 
-My work includes:
+### Shafin Zaman
+- Designed and implemented the Programme page  
+- Displayed programmes (BSc & MSc)  
+- Showed programme details and images  
+- Organized modules by year  
+- Improved UI/UX and responsiveness  
 
-- Designing and implementing the Programme page layout
-- Displaying programmes (BSc and MSc)
-- Showing programme details and images
-- Organizing modules by year
-- Improving UI/UX design and responsiveness
+### Azmain Hossain Ovy
+- Developed Admin login system  
+- Implemented Admin dashboard  
+- Managed programmes and modules  
+- Assigned modules to programmes  
 
-#Contributions: 
-Azmain Hossain Ovy:
-- Developed the Admin login system
-- Implemented Admin dashboard
-- Programme and module management
-- Module assignment to programmes
+---
 
 ## Installation
 
-1. Import the database file using phpMyAdmin.
-2. Place the project folder inside XAMPP htdocs.
-3. Start Apache and MySQL in XAMPP.
-4. Open the project in browser:
+1. Import the database file using phpMyAdmin  
+2. Place the project folder inside XAMPP `htdocs`  
+3. Start Apache and MySQL in XAMPP  
+4. Open in browser:  
+   http://localhost/Project%20website%20by%20WEBTECH%2029/public  
 
-http://localhost/Project%20website%20by%20WEBTECH%2029/public
+---
+
+## GitHub Repository
+https://github.com/khalidsaifullah30ks/webtech29
